@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>MOTOS SHAFT</h1>
+
+        <P>Estamos aquí para ayudarte</P>
+        <div>
+         <img src="../imgs/contacto.png" alt="contacto" width="400px" height="100px">
+        </div>
+    </header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="./nosotros.html">Nosotros</a>
+        <a href="./contacto.html">Contacto</a>
+    </nav>
+    
+
+    <main>
+
+        <section>
+            <h2>Contáctanos</h2>
+             <p>Completa el siguiente --Formulario--
+                y nos pondremos en contacto contigo
+             </p>
+            
+             <form action="#">
+
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                <br><br>
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" id="email" placeholder="Ingrese su email" required>
+                <br><br>
+                <label for="telefono">Teléfono: </label>
+                <br>
+                <input type="tel" id="telefono" placeholder="Ingrese su teléfono" required>
+                <br><br>
+                <label for="moto">Moto: </label>
+                <br>
+                <input type="moto" id="moto" placeholder="Ingrese que modelo de motocicleta" required>
+                <br><br>
+                <label for="gama">Gama de motocicleta: </label>
+                <br>
+                <label for="#"><input type="radio" name="gama">Baja</label>
+                <label for="#"><input type="radio" name="gama">Media</label>
+                <label for="#"><input type="radio" name="gama">Alta</label>
+                <br><br>
+                <label for="#">Ciudad:</label>
+                <select name="ciudad" id="ciudad">
+                    <option value="" disabled selected>Seleccione</option>
+                    <option value="qu">Quito</option>
+                    <option value="es">Esmeraldas</option>
+                    <option value="gu">Guayaquil</option>
+                    <option value="cu">Cuenca</option>
+                    <option value="po">Portoviejo</option>
+                    <option value="ib">Ibarra</option>
+                    <option value="la">Latacunga</option>
+                    <option value="ma">Manabi</option>
+                    <option value="ri">Riobamba</option>
+                    <option value="qe">Quevedo</option>
+                </select>
+                <br><br>
+                 <label for="comentarios">Escribanos:</label>
+                 <br><br>
+                 <textarea name="comentarios" id="comentarios" cols="60" rows="10"></textarea>
+                 <br><br>
+                 
+                 <button type="submit">Guardar</button>
+                 <button type="reset">Limpiar</button>
+                 <input type="submit" name="" id="">
+             </form>
+        </section>
+    </main>
+</body>
+</html>
